@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+
+            /*H1 POR PADRÃO É BOX-LEVEL, MAS PODE SER INLINE ATRAVES DO COMANDO DISPLAY: INLINE OU O INVERSO COM DISPLAY: BLOCK*/
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkgrey;
+          
+            padding: 20px;
+
+            /*SHORTHAND, SE OS QUATRO LADOS DO PADDING FOREM IGUAIS, BASTA DESCREVER APENAS UMA VEZ, QUANDO SE COLOCA DUAS MEDIDAS, A PRIMEIRA REPRESENTA CIMA E BAIXO, A SEGUNDA REPRESENDA DIREITA E ESQUERDA*/
+
+            margin: 20px auto 40px auto;
+
+            /*QUANDO SE COLOCA AUTO EM ALGUMA SEQUENCIA, AS MARGENS FICAM AUTOMATIZADAS, CALCULANDO AUTOMATICAMENTE PARA QUE A BOX FIQUE CENTRALIZADA*/
+
+            outline: 5px dashed salmon;
+
+            /*MARGIN: AUTO DEIXA A CAIXA NO MEIO, PARA CAIXAS*/
+            
+        }
+        /*PADDING SEMPRE NO SENTIDO HORARIO*/
+        a {
+
+            border: 10px solid aqua;
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-level</h1>
+    <p>Parágrafos também são exemplos de box level mas os <a href="#">os links são exemplos de caixa inline-level</a>. Vamos ver como tudo isso funciona</p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+anatomia da caixa/box
+border - linha ao redor do elemento, conteudo, dentro do elemento
+padding - area entre o conteudo e border
+margin - margem ao redor da border
+outline - basicamente borda da borda, fica fora do elemento, dentro da margem
+height - altura
+width - largura
+
+tipos de caixa
+box level - ex: div - sempre se inicia numa linha nova, largura sempee 100% do viewport, entao pula para a proxima para continuar o conteudo
+ex: 
+div, h1 - h6, p, main, header, nav, article, aside, footer, form, video
+inline level - ex:  span - não quebra linha, pode ficar na mesma linha que o conteudo, continua o conteudo na mesma linha, não ocupa largura inteira
+ex: span, a, code, small, stron, em, sup - sub, label, buttom, input, select
